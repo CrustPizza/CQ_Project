@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CQ_Project.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="tableData.cpp">
+      <Filter>Engine\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="parson.c">
+      <Filter>Engine\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>Engine\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="battle.cpp">
+      <Filter>Game\Scene\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>Game\Logic\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="gamemanager.cpp">
+      <Filter>Game\Logic\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="intro.cpp">
+      <Filter>Game\Scene\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>Game\Scene\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="option.cpp">
+      <Filter>Game\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>Engine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="monster.cpp">
+      <Filter>Game\Logic\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="hero.cpp">
+      <Filter>Game\Logic\Character\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>Game\Logic\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="skill.cpp">
+      <Filter>Game\Logic\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Engine\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="swordWave.cpp">
+      <Filter>Game\Logic\Skill\SwordWave</Filter>
+    </ClCompile>
+    <ClCompile Include="thunder.cpp">
+      <Filter>Game\Logic\Skill\Thunder</Filter>
+    </ClCompile>
+    <ClCompile Include="balloon.cpp">
+      <Filter>Game\Logic\Skill\Balloon</Filter>
+    </ClCompile>
+    <ClCompile Include="swordbasic.cpp">
+      <Filter>Game\Logic\Skill\SwordBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicAttack.cpp">
+      <Filter>Game\Logic\Skill\MagicAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Game\Logic\Skill\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="pierceBullet.cpp">
+      <Filter>Game\Logic\Skill\PierceBullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="tableData.h">
+      <Filter>Engine\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="parson.h">
+      <Filter>Engine\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Engine\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="battle.h">
+      <Filter>Game\Scene\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>Game\Logic\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="gamemanager.h">
+      <Filter>Game\Logic\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="intro.h">
+      <Filter>Game\Scene\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>Game\Scene\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="option.h">
+      <Filter>Game\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Engine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="monster.h">
+      <Filter>Game\Logic\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="hero.h">
+      <Filter>Game\Logic\Character\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>Game\Logic\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="skill.h">
+      <Filter>Game\Logic\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Engine\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="swordWave.h">
+      <Filter>Game\Logic\Skill\SwordWave</Filter>
+    </ClInclude>
+    <ClInclude Include="thunder.h">
+      <Filter>Game\Logic\Skill\Thunder</Filter>
+    </ClInclude>
+    <ClInclude Include="balloon.h">
+      <Filter>Game\Logic\Skill\Balloon</Filter>
+    </ClInclude>
+    <ClInclude Include="swordbasic.h">
+      <Filter>Game\Logic\Skill\SwordBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicAttack.h">
+      <Filter>Game\Logic\Skill\MagicAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Game\Logic\Skill\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="pierceBullet.h">
+      <Filter>Game\Logic\Skill\PierceBullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="BG_Layer_Back1.bmp">
+      <Filter>Resources\BackGround</Filter>
+    </Image>
+    <Image Include="BG_Layer_Back2.bmp">
+      <Filter>Resources\BackGround</Filter>
+    </Image>
+    <Image Include="BG_Layer_Ground.bmp">
+      <Filter>Resources\BackGround</Filter>
+    </Image>
+    <Image Include="BG_Layer_Obj.bmp">
+      <Filter>Resources\BackGround</Filter>
+    </Image>
+    <Image Include="Resources\UI\illust_scenario_s2_ep5.bmp">
+      <Filter>Resources\UI\Intro</Filter>
+    </Image>
+    <Image Include="Resources\UI\UI_Start_Btn.bmp">
+      <Filter>Resources\UI\Intro</Filter>
+    </Image>
+    <Image Include="Resources\UI\Title_KR.bmp">
+      <Filter>Resources\UI\Intro</Filter>
+    </Image>
+    <Image Include="Resources\UI\Title.bmp">
+      <Filter>Resources\UI\Intro</Filter>
+    </Image>
+    <Image Include="Resources\UI\brightness.bmp">
+      <Filter>Resources\UI\Option</Filter>
+    </Image>
+    <Image Include="Resources\UI\PauseButton_1.bmp">
+      <Filter>Resources\UI\Option</Filter>
+    </Image>
+    <Image Include="Resources\UI\PauseButton_2.bmp">
+      <Filter>Resources\UI\Option</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\InGame\DamageNumber.bmp">
+      <Filter>Resources\UI\Battle</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\closeButton.bmp">
+      <Filter>Resources\UI\Option</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\scroll_box.bmp">
+      <Filter>Resources\UI\Option</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\scroll_frontbar.bmp">
+      <Filter>Resources\UI\Option</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\scroll_underbar.bmp">
+      <Filter>Resources\UI\Option</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\bgm_icon.bmp">
+      <Filter>Resources\UI\Option</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\brightness_icon.bmp">
+      <Filter>Resources\UI\Option</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\OptionBoard.bmp">
+      <Filter>Resources\UI\Option</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\InGame\HealNumber.bmp">
+      <Filter>Resources\UI\Battle</Filter>
+    </Image>
+    <Image Include="Resources\UI\Status\Box.bmp">
+      <Filter>Resources\UI\Battle</Filter>
+    </Image>
+    <Image Include="Resources\UI\Status\Coin.bmp">
+      <Filter>Resources\UI\Battle</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\exitButton.bmp">
+      <Filter>Resources\UI\Option</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\InGame\goldNumber.bmp">
+      <Filter>Resources\UI\Battle</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\Hero\Archon\ArchonProfile.bmp">
+      <Filter>Resources\UI\Battle\Status</Filter>
+    </Image>
+    <Image Include="Resources\UI\Status\Hero.bmp">
+      <Filter>Resources\UI\Battle\Status</Filter>
+    </Image>
+    <Image Include="Resources\UI\Status\Empty_HP.bmp">
+      <Filter>Resources\UI\Battle\Status</Filter>
+    </Image>
+    <Image Include="Resources\UI\Status\Empty_SP.bmp">
+      <Filter>Resources\UI\Battle\Status</Filter>
+    </Image>
+    <Image Include="Resources\UI\Status\Full_HP.bmp">
+      <Filter>Resources\UI\Battle\Status</Filter>
+    </Image>
+    <Image Include="Resources\UI\Status\Full_SP.bmp">
+      <Filter>Resources\UI\Battle\Status</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\InGame\WhiteNumber.bmp">
+      <Filter>Resources\UI\Battle\Status</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\Hero\Meow\MeowProfile.bmp">
+      <Filter>Resources\UI\Battle\Status</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\Hero\Jeanne\JeanneProfile.bmp">
+      <Filter>Resources\UI\Battle\Status</Filter>
+    </Image>
+    <Image Include="Resources\UI\Board\Board_01.bmp">
+      <Filter>Resources\UI\Battle\BlockBoard</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\Board\Board_02.bmp">
+      <Filter>Resources\UI\Battle\BlockBoard</Filter>
+    </Image>
+    <Image Include="Resources\UI\Skill\Chain_01.bmp">
+      <Filter>Resources\UI\Battle\BlockBoard</Filter>
+    </Image>
+    <Image Include="Resources\UI\Skill\Chain_02.bmp">
+      <Filter>Resources\UI\Battle\BlockBoard</Filter>
+    </Image>
+    <Image Include="Resources\UI\Skill\Chain_03.bmp">
+      <Filter>Resources\UI\Battle\BlockBoard</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Image\UI\InGame\gameOver.bmp">
+      <Filter>Resources\UI\Battle</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{168a61ae-d2f4-4edb-af0e-ff82416335c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{b6820a01-2b9f-4461-a263-9fba256643ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{315c6171-b207-4041-ac62-5e9a0a99363c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{cbf488fe-b461-4923-b7b0-adf9d900a51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sound">
+      <UniqueIdentifier>{7f1aa45b-568e-4d0d-9433-5dc9185c8238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Data">
+      <UniqueIdentifier>{6e784ce9-0c12-4ea8-a69a-178afe37a7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Render">
+      <UniqueIdentifier>{112cceda-728e-4082-9f1b-cfe51a44b09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Image">
+      <UniqueIdentifier>{def50b49-0fec-4512-8c5f-69293033bd33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\BackGround">
+      <UniqueIdentifier>{0f717152-3e43-4aef-8899-f27ecd219218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Cursor">
+      <UniqueIdentifier>{daf29d5d-014c-41ed-b6e1-f9b62e73f4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Icon">
+      <UniqueIdentifier>{ced0ac8f-3427-4ff3-becf-a41ee10955ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\UI">
+      <UniqueIdentifier>{f0038f61-078a-4592-83a7-e7b4eb8730e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{3676f4b1-85f4-4329-9ecf-c2dd34d9b9af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{940dbe7a-6964-42e7-ae20-2d010e9cb5d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Battle">
+      <UniqueIdentifier>{c03567d0-d16b-4734-886e-10b7908eb5fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Intro">
+      <UniqueIdentifier>{c3d185f1-f4d0-456d-a0c3-3b397271f660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\SceneManager">
+      <UniqueIdentifier>{aa6597b6-ebf1-4a42-bd7c-3ab2a511d03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic">
+      <UniqueIdentifier>{54e9ddc8-5cfe-43ae-9add-41fab86f63f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic\Character">
+      <UniqueIdentifier>{e95f5769-59aa-45ee-9d61-f5af25949270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic\Character\Hero">
+      <UniqueIdentifier>{e9cf14d1-8352-4aea-8952-8c1b39b42878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic\Character\Monster">
+      <UniqueIdentifier>{115ee2bf-45f1-4598-a84d-573f7c0a837c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic\GameManager">
+      <UniqueIdentifier>{37d7663f-a29d-4886-a657-47eb925c32d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Option">
+      <UniqueIdentifier>{0994d79c-936c-43f3-8f7c-df36be1ab7ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\UI\Battle">
+      <UniqueIdentifier>{0c8c8367-5b30-4a71-9650-953d8b90b466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\UI\Option">
+      <UniqueIdentifier>{01bf5e87-4886-4068-aee9-9fc4c33e543d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic\Block">
+      <UniqueIdentifier>{9395a661-4ddd-4326-8bc4-e4a4b73e661d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic\Skill">
+      <UniqueIdentifier>{8cf1f479-5d62-49b2-8425-a158f09bce8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Collider">
+      <UniqueIdentifier>{77fc35d4-3f95-49e9-943a-a83568ce3f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic\Skill\SwordWave">
+      <UniqueIdentifier>{f91a7801-9c88-49f2-9183-406a2d57db82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic\Skill\Balloon">
+      <UniqueIdentifier>{7770e88e-b512-4a87-a03d-f68b4a6c9f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic\Skill\Thunder">
+      <UniqueIdentifier>{b99165cc-9193-4850-a559-cef285563177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\UI\Intro">
+      <UniqueIdentifier>{6c7cad1b-0691-4d20-9e9f-04b45a67e725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic\Skill\SwordBasic">
+      <UniqueIdentifier>{20a8e4f4-40c1-4cab-8e99-f9c50f435990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic\Skill\MagicAttack">
+      <UniqueIdentifier>{fe1f25f6-cb55-4b81-91a4-4e6352196dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic\Skill\Bullet">
+      <UniqueIdentifier>{74062448-2c62-43c7-bb47-d33a88cb1ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\UI\Battle\Status">
+      <UniqueIdentifier>{dcb687eb-fea3-4f25-aa86-a42efa88a876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\UI\Battle\BlockBoard">
+      <UniqueIdentifier>{265c17b4-9a87-4558-b9fa-243d995c262f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Logic\Skill\PierceBullet">
+      <UniqueIdentifier>{a1945711-1b05-42c9-9821-08e8221757f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CQ_Project.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

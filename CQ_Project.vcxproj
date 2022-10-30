@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6b3e6a11-eaa2-47cc-833b-4153a695dbaf}</ProjectGuid>
+    <RootNamespace>CQProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\fmod_api\inc;$(IncludePath)</IncludePath>
+    <ReferencePath>$(ProjectDir)\fmod_api\lib\x86;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)\fmod_api\inc;$(IncludePath)</IncludePath>
+    <ReferencePath>$(ProjectDir)\fmod_api\lib\x86;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <ReferencePath>$(ProjectDir)\fmod_api\lib\x64;$(ReferencePath)</ReferencePath>
+    <IncludePath>$(ProjectDir)\fmod_api\inc;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(ProjectDir)\fmod_api\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)\fmod_api\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)\fmod_api\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)\fmod_api\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(ProjectDir)\fmod_api\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)\fmod_api\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="balloon.cpp" />
+    <ClCompile Include="battle.cpp" />
+    <ClCompile Include="block.cpp" />
+    <ClCompile Include="bullet.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="CQ_Project.cpp" />
+    <ClCompile Include="hero.cpp" />
+    <ClCompile Include="image.cpp" />
+    <ClCompile Include="input.cpp" />
+    <ClCompile Include="intro.cpp" />
+    <ClCompile Include="MagicAttack.cpp" />
+    <ClCompile Include="monster.cpp" />
+    <ClCompile Include="option.cpp" />
+    <ClCompile Include="parson.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="pierceBullet.cpp" />
+    <ClCompile Include="render.cpp" />
+    <ClCompile Include="sceneManager.cpp" />
+    <ClCompile Include="skill.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="swordbasic.cpp" />
+    <ClCompile Include="swordWave.cpp" />
+    <ClCompile Include="tableData.cpp" />
+    <ClCompile Include="character.cpp" />
+    <ClCompile Include="gamemanager.cpp" />
+    <ClCompile Include="sound.cpp" />
+    <ClCompile Include="thunder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="balloon.h" />
+    <ClInclude Include="battle.h" />
+    <ClInclude Include="block.h" />
+    <ClInclude Include="bullet.h" />
+    <ClInclude Include="character.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="hero.h" />
+    <ClInclude Include="image.h" />
+    <ClInclude Include="input.h" />
+    <ClInclude Include="intro.h" />
+    <ClInclude Include="MagicAttack.h" />
+    <ClInclude Include="monster.h" />
+    <ClInclude Include="option.h" />
+    <ClInclude Include="parson.h" />
+    <ClInclude Include="pierceBullet.h" />
+    <ClInclude Include="render.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="sceneManager.h" />
+    <ClInclude Include="skill.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="swordbasic.h" />
+    <ClInclude Include="swordWave.h" />
+    <ClInclude Include="tableData.h" />
+    <ClInclude Include="gamemanager.h" />
+    <ClInclude Include="sound.h" />
+    <ClInclude Include="thunder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CQ_Project.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\4_Resources\Image\Hero\Archon\ArchonProfile.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\Hero\Jeanne\JeanneProfile.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\Hero\Meow\MeowProfile.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\InGame\DamageNumber.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\InGame\gameOver.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\InGame\goldNumber.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\InGame\HealNumber.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\Board\Board_02.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\InGame\WhiteNumber.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\bgm_icon.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\brightness_icon.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\closeButton.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\exitButton.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\OptionBoard.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\scroll_box.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\scroll_frontbar.bmp" />
+    <Image Include="..\..\..\4_Resources\Image\UI\Option\scroll_underbar.bmp" />
+    <Image Include="BG_Layer_Back1.bmp" />
+    <Image Include="BG_Layer_Back2.bmp" />
+    <Image Include="BG_Layer_Ground.bmp" />
+    <Image Include="BG_Layer_Obj.bmp" />
+    <Image Include="Resources\UI\Board\Board_01.bmp" />
+    <Image Include="Resources\UI\brightness.bmp" />
+    <Image Include="Resources\UI\illust_scenario_s2_ep5.bmp" />
+    <Image Include="Resources\UI\PauseButton_1.bmp" />
+    <Image Include="Resources\UI\PauseButton_2.bmp" />
+    <Image Include="Resources\UI\Skill\Chain_01.bmp" />
+    <Image Include="Resources\UI\Skill\Chain_02.bmp" />
+    <Image Include="Resources\UI\Skill\Chain_03.bmp" />
+    <Image Include="Resources\UI\Status\Box.bmp" />
+    <Image Include="Resources\UI\Status\Coin.bmp" />
+    <Image Include="Resources\UI\Status\Empty_HP.bmp" />
+    <Image Include="Resources\UI\Status\Empty_SP.bmp" />
+    <Image Include="Resources\UI\Status\Full_HP.bmp" />
+    <Image Include="Resources\UI\Status\Full_SP.bmp" />
+    <Image Include="Resources\UI\Status\Hero.bmp" />
+    <Image Include="Resources\UI\Title.bmp" />
+    <Image Include="Resources\UI\Title_KR.bmp" />
+    <Image Include="Resources\UI\UI_Start_Btn.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

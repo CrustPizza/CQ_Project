@@ -1,0 +1,163 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+BG_LAYER1               BITMAP                  "Resources\\BackGround\\BG_Layer_Ground.bmp"
+
+BG_LAYER2               BITMAP                  "Resources\\BackGround\\BG_Layer_Back1.bmp"
+
+BG_LAYER3               BITMAP                  "Resources\\BackGround\\BG_Layer_Back2.bmp"
+
+BG_LAYER4               BITMAP                  "Resources\\BackGround\\BG_Layer_Obj.bmp"
+
+UI_ILLUSTBG             BITMAP                  "Resources\\UI\\Intro\\illust_scenario_s2_ep5.bmp"
+
+UI_STARTBUTTON          BITMAP                  "Resources\\UI\\Intro\\UI_Start_Btn.bmp"
+
+UI_BRIGHTNESS           BITMAP                  "Resources\\UI\\Option\\brightness.bmp"
+
+UI_TITLE                BITMAP                  "Resources\\UI\\Intro\\Title.bmp"
+
+UI_BOARD_01             BITMAP                  "Resources\\UI\\Board\\Board_01.bmp"
+
+UI_BOARD_02             BITMAP                  "Resources\\UI\\Board\\Board_02.bmp"
+
+UI_SKILL_02             BITMAP                  "Resources\\UI\\Skill\\Skill_01.bmp"
+
+UI_SKILL_03             BITMAP                  "Resources\\UI\\Skill\\Skill_02.bmp"
+
+UI_SKILL_01             BITMAP                  "Resources\\UI\\Skill\\Skill_03.bmp"
+
+UI_TITLE_KR             BITMAP                  "Resources\\UI\\Intro\\Title_KR.bmp"
+
+UI_PAUSE_UP             BITMAP                  "Resources\\UI\\Option\\PauseButton_1.bmp"
+
+UI_PAUSE_DOWN           BITMAP                  "Resources\\UI\\Option\\PauseButton_2.bmp"
+
+UI_BGM_ICON             BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\bgm_icon.bmp"
+
+UI_BRIGHTNESS_ICON      BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\brightness_icon.bmp"
+
+UI_MINUSOFF_ICON        BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\minusOff_icon.bmp"
+
+UI_MINUSON_ICON         BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\minusOn_icon.bmp"
+
+UI_OPTION_BOARD         BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\OptionBoard.bmp"
+
+UI_PLUSOFF_ICON         BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\plusOff_icon.bmp"
+
+UI_PLUSON_ICON          BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\plusOn_icon.bmp"
+
+UI_SCROLL_BOX           BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\scroll_box.bmp"
+
+UI_SCROLL_FRONTBAR      BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\scroll_frontbar.bmp"
+
+UI_SCROLL_UNDERBAR      BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\scroll_underbar.bmp"
+
+UI_SOUND_ICON           BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\sound_icon.bmp"
+
+UI_SOUNDOFF_ICON        BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\soundOff_icon.bmp"
+
+UI_CLOSE_BUTTON         BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\closeButton.bmp"
+
+IG_DAMAGE_NUMBER        BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\InGame\\DamageNumber.bmp"
+
+IG_HEAL_NUMBER          BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\InGame\\HealNumber.bmp"
+
+UI_CHAIN_02             BITMAP                  "Resources\\UI\\Skill\\Chain_01.bmp"
+
+UI_CHAIN_03             BITMAP                  "Resources\\UI\\Skill\\Chain_02.bmp"
+
+UI_CHAIN_01             BITMAP                  "Resources\\UI\\Skill\\Chain_03.bmp"
+
+IG_WHITE_NUMBER         BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\InGame\\WhiteNumber.bmp"
+
+UI_STATUS_HERO          BITMAP                  "Resources\\UI\\Status\\Hero.bmp"
+
+UI_STATUS_BOX           BITMAP                  "Resources\\UI\\Status\\Box.bmp"
+
+UI_STATUS_COIN          BITMAP                  "Resources\\UI\\Status\\Coin.bmp"
+
+UI_STATUS_EMPTY_HP      BITMAP                  "Resources\\UI\\Status\\Empty_HP.bmp"
+
+UI_STATUS_EMPTY_SP      BITMAP                  "Resources\\UI\\Status\\Empty_SP.bmp"
+
+UI_STATUS_FULL_HP       BITMAP                  "Resources\\UI\\Status\\Full_HP.bmp"
+
+UI_STATUS_FULL_SP       BITMAP                  "Resources\\UI\\Status\\Full_SP.bmp"
+
+ARCHON_PROFILE          BITMAP                  "..\\..\\..\\4_Resources\\Image\\Hero\\Archon\\ArchonProfile.bmp"
+
+MEOW_PROFILE            BITMAP                  "..\\..\\..\\4_Resources\\Image\\Hero\\Meow\\MeowProfile.bmp"
+
+JEANNE_PROFILE          BITMAP                  "..\\..\\..\\4_Resources\\Image\\Hero\\Jeanne\\JeanneProfile.bmp"
+
+UI_EXIT_BUTTON          BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\Option\\exitButton.bmp"
+
+IG_GOLD_NUMBER          BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\InGame\\goldNumber.bmp"
+
+UI_GAME_OVER            BITMAP                  "..\\..\\..\\4_Resources\\Image\\UI\\InGame\\gameOver.bmp"
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
